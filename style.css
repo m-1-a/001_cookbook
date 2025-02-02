@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-size: 16;
+}
+
+.highlight {
+    color: yellow;
+}
+
+#ingredients {
+    color: lightpink;
+    font-size: medium;
+}
+
+#prep_steps {
+    color: lavender;
+    font-size: medium;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow: clip;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    padding: 8px 0;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    flex-grow: 1;
+    margin: 64px 0 32px 0;
+    padding: 0 8px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+}
+
+#layout1 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#layout2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#layout4 {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.table_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.c {
+    color: cornflowerblue;
+}
+
+.top {
+    color: white;
+}
+
+#item {
+    color: khaki;
+}
+
+footer {
+    padding: 8px 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    color: lightgreen;
+    font-size: large;
+}
+
+h2 {
+    color: cyan;
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+    color: lightblue;
+    font-size: medium;
+}
+
+a {
+    color: burlywood;
+}
+
+li {
+    margin: 8px 0;
+    padding: 0 16px;
+}
+
+td {
+    text-align: center;
+}

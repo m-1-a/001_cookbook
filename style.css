@@ -52,6 +52,10 @@ main {
     display: flex;
 }
 
+main>section {
+    max-width: 40%;
+}
+
 #layout1 {
     flex-direction: row;
     justify-content: space-evenly;
@@ -128,6 +132,7 @@ a {
 li {
     margin: 8px 0;
     padding: 0 16px;
+    word-wrap: break-word;
 }
 
 td {
